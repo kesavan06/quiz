@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>QUIZes</h1>
+      </div>
+      <div class="content">
+        <div class="category input">
+          <label for="categorySelect">Category</label>
+          <select name="" id="categorySelect">
+            <option value="anyCategory">Any Category</option>
+            <option value="linux">Linux</option>
+            <option value="bash">Bash</option>
+            <option value="uncategorized">Uncategorized</option>
+            <option value="docker">Docker</option>
+            <option value="sql">SQL</option>
+            <option value="cms">CMS</option>
+            <option value="code">Code</option>
+            <option value="devops">DevOps</option>
+            <option value="react">React</option>
+            <option value="laravel">Laravel</option>
+            <option value="postgres">Postgres</option>
+            <option value="django">Django</option>
+            <option value="cpanel">CPanel</option>
+            <option value="nodejs">NodeJs</option>
+            <option value="wordpress">WordPress</option>
+            <option value="nextjs">next.js</option>
+            <option value="vuejs">VueJS</option>
+            <option value="apacheKafka">Apache Kafka</option>
+          </select>
+        </div>
+        <div class="difficulty input">
+          <label for="difficultySelect">Difficulty</label>
+          <select name="" id="difficultySelect">
+            <option value="anyDifficulty">Any Difficulty</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </div>
+        <div class="questionCount input">
+          <p>Number of questions</p>
+          <label>
+            <input type="radio" name="count" value="5" id="rbtn1" checked />5
+            <input type="radio" name="count" value="10" id="rbtn2" />10
+            <input type="radio" name="count" value="15" id="rbtn3" />15
+            <input type="radio" name="count" value="20" id="rbtn4" />20
+          </label>
+        </div>
+        <button id="startBtn">Start</button>
+      </div>
+    </div>
+    <script src="logic.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <div class="time">
+        <p><b>Remining seconds:</b></p>
+        <p id="sec"></p>
+      </div>
+      <div class="question" id="quiz"></div>
+      <div class="options" id="options"></div>
+      <div class="answer"></div>
+
+      <div class="score-container" id="scoreContainer" style="display: none">
+        <h2>Quiz Completed!</h2>
+        <p id="finalScore"></p>
+        <button id="backBtn">Back to Home</button>
+      </div>
+    </div>
+    <script src="questionLogic.js"></script>
+  </body>
+</html>
