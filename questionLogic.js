@@ -61,7 +61,7 @@ async function printQuestions() {
       let secEle = document.getElementById("sec");
       secEle.textContent = seconds;
 
-      await delay(500);
+      await delay(1000);
       seconds--;
     }
 
